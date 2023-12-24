@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
 </head>
 <body>
-    
+    <h1>Registration Form</h1><br>
+    <form action="sample.py"></form>
+    <b><label for="name">Name:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="name" size="40" placeholder="Enter your name" required><br><br>
+    <b><label for="email">Email:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" id="email" size="40" placeholder="Enter your email" required><br><br>
+    <b><label for="password">Password:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="password" id="password" size="40" maxlength="10"><br><br>
+    <b><label for="number">Phone No.:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" id="number" size="60" placeholder="Enter your Phone no" required><br><br>
+    <b>Date of Birth:</b>&nbsp;&nbsp;
+    <input type="date"><br><br>
+    <b>Choose Photo:</b>&nbsp;
+    <input type="file"><br><br>
+    <b>Gender:</b>&nbsp;&nbsp;
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label><br><br>
+    <b>Skills:</b><br><br>
+    <input type="checkbox" id="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css">
+    <label for="html">CSS</label><br>
+    <input type="checkbox" id="js">
+    <label for="js">JS</label><br><br>
+    <b>State:</b> &nbsp;&nbsp;
+    <select name="states" id="states">
+        <optgroup label="South"></optgroup>
+        <option value="ap">Andhra</option>
+        <option value="ts">Telangana</option>
+        <option value="ks">Karnataka</option>
+        <option value="kl">Kerala</option>
+        <option value="ts">Tamil Nadu</option>
+    </select><br><br><br>
+    <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;
+    <button type="reset">Reset</button>
 </body>
 </html>
